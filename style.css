@@ -1,0 +1,414 @@
+/* PARAMÈTRE GÉNÉRAUX */
+html,body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.section_1_et_2 {
+    display: flex;
+}
+
+/* PARTIE GAUCHE */
+.left_section {
+    background-color:#A8765B;
+    width: 30%;
+    color: rgb(241, 235, 231);
+}
+
+    /* Photo */
+.photo {
+    width: 100%;
+    margin-top: 12%;
+    margin-bottom: 8%;
+    text-align: center;
+}
+
+.photo > img {
+    width: 50%;
+    border-radius: 50%;
+}
+
+
+    /* Contact */
+.contact {
+    background-color: #534642;
+    width: auto;
+    text-align: center;
+    padding: 4px;
+    
+}
+.contact h1 {
+    margin: 0;
+    color: #A8765B;
+}
+
+.detail_contact {
+    margin-top: 10%;
+}
+
+    /* A propos */
+.a_propos {
+    background-color: #534642;
+    width: auto;
+    text-align: center;
+    padding: 4px;
+    margin-top: 20%;
+    
+}
+.a_propos h1 {
+    margin: 0;
+    color: #A8765B;
+}
+
+.block_propos {
+    margin: auto 30px auto 35px;
+    padding: 3px; 
+    margin-top: 6%;
+}
+
+    /* Loisirs */
+.loisirs {
+    background-color: #534642;
+    width: auto;
+    text-align: center;
+    padding: 4px; 
+    margin-top: 1250px; 
+}
+.loisirs h1 {
+    margin: 0;
+    color: #A8765B;
+}
+
+.logo_loisirs {
+    display: flex;
+    justify-content: space-between;
+    width: 280px;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo_loisirs i {
+    color: rgb(241, 235, 231);
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.test :hover {
+    color: #ffa56d;
+}
+
+/* PARTIE DROITE */
+.right_section {
+    background-color:rgb(241, 235, 231);
+    width: 70%;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 50px;
+    color: #534642;
+}
+
+    /* !!! Titre !!! */
+.sous_titre {
+    font-weight: normal;
+    margin-top: -25px;
+    margin-bottom: 60px;
+}
+
+
+
+    /* !!! Formation !!! */
+.block_formation1 {
+    display: flex;
+}
+
+.block_formation2 {
+    display: flex; 
+    margin-top: 4%; 
+}
+
+/* Paramètre titre */
+.title_formation {
+    display: flex;
+    margin-top: 15%;
+}
+
+.title_formation h1 {
+    font-size: 28px;
+}
+
+.title_formation i {
+    font-size: 38px;
+    color: #A8765B;
+    margin-top: 3.2%;
+    margin-right: 4%;
+}
+
+.ligne {
+    border: 1px solid #A8765B;
+    margin-top: -1%;
+    margin-bottom: 5%;
+}
+
+/* Date & Symbole */
+.dot {
+    color: #A8765B;
+    margin-top:1% ;
+    margin-right: 3%;  
+      
+}
+  
+.dot2 {
+    color: #A8765B;
+    margin-top:1.5% ;
+    margin-right: 3%; 
+    font-size: 12px;
+}
+
+.date_formation {
+    width: 200px;
+    margin-right: 13%;
+    padding-top: 5px;
+    margin-top: 0;
+}
+
+/* Texte descriptif */
+.description_formation {
+    width: 550px;
+    margin-top: 0;
+    padding: 0;
+   
+}
+
+.description_formation h1 {
+    padding: 0;
+    margin: 0;
+}
+
+.description {
+    padding: 0;
+    margin: 0;
+}
+
+.sous_titre2 {
+    font-size: 17px;
+}
+
+
+    /* !!! Expérience pro !!! */
+.block_experience1 {
+    display: flex;
+}
+    
+.block_experience2 {
+    display: flex; 
+    margin-top: 4%; 
+}
+
+/* Paramètre titre */
+.title_experience {
+    display: flex;
+    margin-top: 10%;
+}
+
+.title_formation h1 {
+    font-size: 28px;
+}
+
+.title_experience i {
+    font-size: 38px;
+    color: #A8765B;
+    margin-top: 3.2%;
+    margin-right: 4%;
+}
+
+/* Date */
+.date_experience {
+    width: 200px;
+    margin-right: 13%;
+    padding-top: 5px;
+    margin-top: 0;
+}
+
+/* Texte descriptif */
+.description_experience {
+    width: 550px;
+    margin-top: 0;
+    padding: 0;
+   
+}
+
+.description_experience h1 {
+    padding: 0;
+    margin: 0;
+}
+
+
+    /* !!! Recommandations !!! */
+
+/* Paramètre titre */
+.title_recommandation {
+    display: flex;
+    margin-top: 15%;
+}
+
+.title_recommandation h1 {
+    font-size: 28px;
+}
+
+.title_recommandation i {
+    font-size: 38px;
+    color: #A8765B;
+    margin-top: 2.7%;
+    margin-right: 4%;
+}
+
+/* Description */
+.block_recommandation {
+    display: flex;
+    margin-bottom: 10%;
+}
+
+.detail_reco {
+    width: 210px;
+    margin-right: 13%;
+    
+    margin-top: 0;
+}
+
+
+.recommandation {
+    width: 550px;
+    margin-top: 0;
+    padding: 0;
+}
+
+.detail_reco a {
+color: #A8765B;
+font-size: 25px;
+
+}
+
+/* MEDIA QUERIES
+Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 1024px et 1280px */
+
+@media screen and (max-width: 1024px)
+{
+    body {
+        font-size: 14px;
+    }
+
+    .section_1_et_2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0;
+    }
+
+    /* Section gauche */
+    
+    .left_section {
+        width: auto;
+        margin: 0;
+    }
+
+    .left_section:nth-child(1) {
+        order: 1;
+    }
+
+    .detail_contact {
+        margin-top: 4px;
+    }
+
+    .a_propos {
+        margin-top: 2px;
+    }
+
+    .block_propos {
+        margin-top: 4px;
+    }
+
+    .loisirs {
+        margin-top: 2px;
+    }
+
+    .logo_loisirs {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+
+    /* Section droite */
+
+    .right_section {
+        width: auto;
+        margin: 0;
+        padding: 10px;
+        
+    }
+
+    .title_formation {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .block_formation1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        width: auto;
+    }
+
+    .description_formation {
+        text-align: left;
+    }
+
+    .block_formation2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        width: auto;
+    }
+
+    .date_formation {
+        margin: 5px 0 10px 0;
+        padding: 0;
+
+    }
+
+
+
+    .description_formation h1 {
+        font-size: 20px;
+        max-width: auto;
+        height: 100%;
+    }
+
+    .title_formation h1 {
+        font-size: 23px;
+    }
+
+    .description_experience h1 {
+        font-size: 20px;
+    }
+
+    .title_experience h1 {
+        font-size: 23px;
+    }
+
+    .title_recommandation h1 {
+        font-size: 23px;
+    }
+
+
+}
