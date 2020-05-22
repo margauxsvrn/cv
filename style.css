@@ -20,13 +20,14 @@ html,body{
     /* Photo */
 .photo {
     width: 100%;
-    margin-top: 12%;
-    margin-bottom: 8%;
+    margin-top: 55px;
+    margin-bottom: 30px;
     text-align: center;
 }
 
 .photo > img {
-    width: 50%;
+    width: 60%;
+    border: 3.5px solid rgba(133, 99, 80, 0.438);
     border-radius: 50%;
 }
 
@@ -39,13 +40,27 @@ html,body{
     padding: 4px;
     
 }
-.contact h1 {
+.contact h2 {
     margin: 0;
     color: #A8765B;
 }
 
 .detail_contact {
-    margin-top: 10%;
+    margin-top: 30px;
+}
+
+.detail_contact > ul {
+    list-style-type: none;
+}
+
+.detail_contact span {
+    display: block;
+}
+
+.detail_contact a {
+    color: rgb(241, 235, 231); 
+    font-size:30px;
+    margin-top: 4px;
 }
 
     /* A propos */
@@ -54,10 +69,10 @@ html,body{
     width: auto;
     text-align: center;
     padding: 4px;
-    margin-top: 20%;
+    margin-top: 30px;
     
 }
-.a_propos h1 {
+.a_propos h2 {
     margin: 0;
     color: #A8765B;
 }
@@ -65,7 +80,11 @@ html,body{
 .block_propos {
     margin: auto 30px auto 35px;
     padding: 3px; 
-    margin-top: 6%;
+    margin-top: 20px;
+}
+
+.block_propos span {
+    display: block;
 }
 
     /* Loisirs */
@@ -74,26 +93,26 @@ html,body{
     width: auto;
     text-align: center;
     padding: 4px; 
-    margin-top: 1250px; 
+    margin-top: 980px; 
 }
-.loisirs h1 {
+.loisirs h2 {
     margin: 0;
     color: #A8765B;
 }
 
 .logo_loisirs {
     display: flex;
-    justify-content: space-between;
-    width: 280px;
-    margin-top: 10%;
-    margin-left: auto;
-    margin-right: auto;
+    justify-content: center;
+    width: 100%;
+    margin-top: 30px;
+    
 }
 
 .logo_loisirs i {
     color: rgb(241, 235, 231);
     margin-right: 20px;
     margin-left: 20px;
+    font-size: 55px;
 }
 
 .test :hover {
@@ -111,10 +130,25 @@ html,body{
 }
 
     /* !!! Titre !!! */
+
+.title h2{
+    font-family:'Comfortaa'; 
+    font-size: 50px;
+}
+
+.name {
+    color:#A8765B;
+}
+
 .sous_titre {
     font-weight: normal;
+    font-size: 29px;
     margin-top: -25px;
     margin-bottom: 60px;
+}
+
+.underline_dev {
+    border-bottom:2px solid #A8765B;
 }
 
 
@@ -126,65 +160,70 @@ html,body{
 
 .block_formation2 {
     display: flex; 
-    margin-top: 4%; 
+    margin-top: 10px; 
 }
 
 /* Paramètre titre */
 .title_formation {
     display: flex;
-    margin-top: 15%;
+    margin: 0;
+    margin-bottom: 10px;
+    margin-top: 130px;
+    padding: 0;
+    
 }
 
-.title_formation h1 {
+.title_formation h2 {
     font-size: 28px;
+    margin: 0;
+    padding: 0;
 }
 
 .title_formation i {
     font-size: 38px;
     color: #A8765B;
-    margin-top: 3.2%;
-    margin-right: 4%;
+    margin-right: 40px;
 }
 
 .ligne {
     border: 1px solid #A8765B;
-    margin-top: -1%;
-    margin-bottom: 5%;
+    margin-top: 0;
+    margin-bottom: 40px;
 }
 
 /* Date & Symbole */
 .dot {
     color: #A8765B;
-    margin-top:1% ;
-    margin-right: 3%;  
+    margin-top: 5px;
+    margin-right: 20px;  
       
 }
   
 .dot2 {
     color: #A8765B;
-    margin-top:1.5% ;
-    margin-right: 3%; 
-    font-size: 12px;
+    margin-top: 10px;
+    margin-right: 20px; 
+    font-size: 10px;
 }
 
 .date_formation {
-    width: 200px;
-    margin-right: 13%;
+    width: 25%;
+    margin-right: 95px;
     padding-top: 5px;
     margin-top: 0;
 }
 
 /* Texte descriptif */
 .description_formation {
-    width: 550px;
+    width: 65%;
     margin-top: 0;
     padding: 0;
    
 }
 
-.description_formation h1 {
+.description_formation h2 {
     padding: 0;
-    margin: 0;
+    margin: 0 0 8px 0;
 }
 
 .description {
@@ -204,45 +243,49 @@ html,body{
     
 .block_experience2 {
     display: flex; 
-    margin-top: 4%; 
+    margin-top: 17px; 
 }
 
 /* Paramètre titre */
 .title_experience {
     display: flex;
-    margin-top: 10%;
+    margin: 0;
+    margin-bottom: 10px;
+    margin-top: 40px;
+    padding: 0;
 }
 
-.title_formation h1 {
+.title_experience h2 {
     font-size: 28px;
+    margin: 0;
+    padding: 0;
 }
 
 .title_experience i {
     font-size: 38px;
     color: #A8765B;
-    margin-top: 3.2%;
-    margin-right: 4%;
+    margin-right: 40px;
 }
 
 /* Date */
 .date_experience {
-    width: 200px;
-    margin-right: 13%;
+    width: 25%;
+    margin-right: 95px;
     padding-top: 5px;
     margin-top: 0;
 }
 
 /* Texte descriptif */
 .description_experience {
-    width: 550px;
+    width: 65%;
     margin-top: 0;
     padding: 0;
    
 }
 
-.description_experience h1 {
+.description_experience h2 {
     padding: 0;
-    margin: 0;
+    margin: 0 0 8px 0;
 }
 
 
@@ -251,44 +294,55 @@ html,body{
 /* Paramètre titre */
 .title_recommandation {
     display: flex;
-    margin-top: 15%;
+    margin: 0;
+    margin-bottom: 10px;
+    margin-top: 40px;
+    padding: 0;
 }
 
-.title_recommandation h1 {
+.title_recommandation h2 {
     font-size: 28px;
+    margin: 0;
+    padding: 0;
 }
 
 .title_recommandation i {
     font-size: 38px;
     color: #A8765B;
-    margin-top: 2.7%;
-    margin-right: 4%;
+    margin-right: 40px;
 }
 
 /* Description */
 .block_recommandation {
     display: flex;
-    margin-bottom: 10%;
+    margin-bottom: 40px;
 }
 
 .detail_reco {
-    width: 210px;
-    margin-right: 13%;
+    width: 25%;
+    margin-right: 115px;
     
     margin-top: 0;
 }
 
+.detail_reco span {
+    display: block;
+}
 
 .recommandation {
-    width: 550px;
+    width: 65%;
     margin-top: 0;
     padding: 0;
 }
 
 .detail_reco a {
-color: #A8765B;
-font-size: 25px;
+    color: #A8765B;
+    font-size: 25px;
 
+}
+
+.voir_reco {
+    font-size: 13px;
 }
 
 /* MEDIA QUERIES
@@ -388,25 +442,25 @@ Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 1024
 
 
 
-    .description_formation h1 {
+    .description_formation h2 {
         font-size: 20px;
         max-width: auto;
         height: 100%;
     }
 
-    .title_formation h1 {
+    .title_formation h2 {
         font-size: 23px;
     }
 
-    .description_experience h1 {
+    .description_experience h2 {
         font-size: 20px;
     }
 
-    .title_experience h1 {
+    .title_experience h2 {
         font-size: 23px;
     }
 
-    .title_recommandation h1 {
+    .title_recommandation h2 {
         font-size: 23px;
     }
 
