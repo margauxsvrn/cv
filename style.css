@@ -152,7 +152,6 @@ html,body{
 }
 
 
-
     /* !!! Formation !!! */
 .block_formation1 {
     display: flex;
@@ -403,25 +402,35 @@ Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 1024
         
     }
 
+/* FORMATION */
     .title_formation {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
+    .title_formation h2 {
+        font-size: 23px;
+    }
+
+    .title_formation i {
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 8px;
+    }
 
     .block_formation1 {
         display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
-        margin: 0;
+        margin: 0 0 40px 0;
         padding: 0;
-        width: auto;
+        width: 100%;
     }
 
     .description_formation {
-        text-align: left;
+        text-align: center;
     }
 
     .block_formation2 {
@@ -429,18 +438,25 @@ Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 1024
         flex-direction: column;
         align-items: center;
         text-align: center;
-        margin: 0;
+        margin: 0 0 40px 0;
         padding: 0;
-        width: auto;
+        width: 100%;
+    }
+
+    .dot {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .dot2 {
+        margin-right: auto;
+        margin-left: auto;
     }
 
     .date_formation {
-        margin: 5px 0 10px 0;
+        margin: 5px auto 28px auto;
         padding: 0;
-
     }
-
-
 
     .description_formation h2 {
         font-size: 20px;
@@ -448,21 +464,98 @@ Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 1024
         height: 100%;
     }
 
-    .title_formation h2 {
-        font-size: 23px;
-    }
+/* EXPERIENCE */    
 
-    .description_experience h2 {
-        font-size: 20px;
+    .title_experience {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .title_experience h2 {
         font-size: 23px;
     }
 
+    .title_experience i {
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 8px;
+    }
+
+    .block_experience1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 0 0 40px 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    .block_experience2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 0 0 40px 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    .date_experience {
+        margin: 5px auto 28px auto;
+        padding: 0;
+    }
+
+    .description_experience h2 {
+        font-size: 20px;
+        max-width: auto;
+        height: 100%;
+    }
+
+    .description_experience {
+        text-align: center;
+    }
+
+
+   
+/* RECO */
+
+    .title_recommandation {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .title_recommandation i {
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 8px;
+    }
+
     .title_recommandation h2 {
         font-size: 23px;
     }
 
+    .block_recommandation {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 0 0 40px 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    .detail_reco {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .detail_reco a {
+        display: block;
+        margin-bottom: 15px;
+    }
 
 }
