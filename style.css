@@ -477,6 +477,7 @@ Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 1024
         display: flex;
         flex-direction: column;
         align-items: center;
+        text-align: center;
     }
 
     .title_experience h2 {
