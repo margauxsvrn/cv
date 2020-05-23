@@ -1,4 +1,10 @@
 /* PARAMÈTRE GÉNÉRAUX */
+@font-face {
+    font-family: 'sundine';
+    src: url('./font/sundine.ttf') format('truetype');
+}
+
+
 html,body{
     margin: 0;
     padding: 0;
@@ -59,7 +65,7 @@ html,body{
 
 .detail_contact a {
     color: rgb(241, 235, 231); 
-    font-size:30px;
+    font-size: 30px;
     margin-top: 4px;
 }
 
@@ -132,8 +138,11 @@ html,body{
     /* !!! Titre !!! */
 
 .title h2{
-    font-family:'Comfortaa'; 
-    font-size: 50px;
+    font-family:'sundine'; 
+    font-size: 70px;
+    font-weight: normal;
+    margin: 0;
+    margin-bottom: 20px;
 }
 
 .name {
@@ -142,15 +151,13 @@ html,body{
 
 .sous_titre {
     font-weight: normal;
-    font-size: 29px;
-    margin-top: -25px;
+    font-size: 20px;
     margin-bottom: 60px;
 }
 
 .underline_dev {
     border-bottom:2px solid #A8765B;
 }
-
 
     /* !!! Formation !!! */
 .block_formation1 {
