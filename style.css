@@ -12,12 +12,12 @@ html,body{
     font-size: 16px;
 }
 
-.section_1_et_2 {
+.section_gauche_droite {
     display: flex;
 }
 
 /* PARTIE GAUCHE */
-.left_section {
+.section_gauche {
     background-color:#A8765B;
     width: 30%;
     color: rgb(241, 235, 231);
@@ -59,14 +59,41 @@ html,body{
     list-style-type: none;
 }
 
+.detail_contact li {
+    display: block;
+    margin-bottom: 21px;
+}
+
 .detail_contact span {
     display: block;
 }
 
-.detail_contact a {
+.tel {
+    text-decoration: none;
+    color: rgb(241, 235, 231);  
+}
+
+.tel:hover{
+    color: white;
+}
+
+.email {
+text-decoration: none;
+color: rgb(241, 235, 231); 
+}
+
+.email:hover{
+    color: white;
+}
+
+.logo_git {
     color: rgb(241, 235, 231); 
     font-size: 30px;
     margin-top: 4px;
+}
+
+.logo_git :hover {
+color: white;
 }
 
     /* A propos */
@@ -76,20 +103,19 @@ html,body{
     text-align: center;
     padding: 4px;
     margin-top: 30px;
-    
 }
 .a_propos h2 {
     margin: 0;
     color: #A8765B;
 }
 
-.block_propos {
+.paragraphe_a-propos {
     margin: auto 30px auto 35px;
     padding: 3px; 
     margin-top: 20px;
 }
 
-.block_propos span {
+.paragraphe_a-propos span {
     display: block;
 }
 
@@ -121,12 +147,12 @@ html,body{
     font-size: 55px;
 }
 
-.test :hover {
+.logo_soleil :hover {
     color: #ffa56d;
 }
 
 /* PARTIE DROITE */
-.right_section {
+.section_droite {
     background-color:rgb(241, 235, 231);
     width: 70%;
     padding-right: 50px;
@@ -137,7 +163,7 @@ html,body{
 
     /* !!! Titre !!! */
 
-.title h2{
+.titre h2{
     font-family:'sundine'; 
     font-size: 70px;
     font-weight: normal;
@@ -145,11 +171,11 @@ html,body{
     margin-bottom: 20px;
 }
 
-.name {
+.nom {
     color:#A8765B;
 }
 
-.sous_titre {
+.nom_profession {
     font-weight: normal;
     font-size: 20px;
     margin-bottom: 60px;
@@ -160,32 +186,31 @@ html,body{
 }
 
     /* !!! Formation !!! */
-.block_formation1 {
+.block_formation_openclassrooms {
     display: flex;
 }
 
-.block_formation2 {
+.block_formation_ppa {
     display: flex; 
     margin-top: 10px; 
 }
 
 /* Paramètre titre */
-.title_formation {
+.titre_formation {
     display: flex;
     margin: 0;
     margin-bottom: 10px;
     margin-top: 130px;
     padding: 0;
-    
 }
 
-.title_formation h2 {
+.titre_formation h2 {
     font-size: 28px;
     margin: 0;
     padding: 0;
 }
 
-.title_formation i {
+.titre_formation i {
     font-size: 38px;
     color: #A8765B;
     margin-right: 40px;
@@ -219,6 +244,10 @@ html,body{
     margin-top: 0;
 }
 
+.date_formation span {
+    display: block;
+}
+
 /* Texte descriptif */
 .description_formation {
     width: 65%;
@@ -237,23 +266,23 @@ html,body{
     margin: 0;
 }
 
-.sous_titre2 {
+.sous_titre {
     font-size: 17px;
 }
 
 
     /* !!! Expérience pro !!! */
-.block_experience1 {
+.block_experience_alphavisa {
     display: flex;
 }
     
-.block_experience2 {
+.block_experience_amex {
     display: flex; 
     margin-top: 17px; 
 }
 
 /* Paramètre titre */
-.title_experience {
+.titre_experience {
     display: flex;
     margin: 0;
     margin-bottom: 10px;
@@ -261,13 +290,13 @@ html,body{
     padding: 0;
 }
 
-.title_experience h2 {
+.titre_experience h2 {
     font-size: 28px;
     margin: 0;
     padding: 0;
 }
 
-.title_experience i {
+.titre_experience i {
     font-size: 38px;
     color: #A8765B;
     margin-right: 40px;
@@ -279,6 +308,10 @@ html,body{
     margin-right: 95px;
     padding-top: 5px;
     margin-top: 0;
+}
+
+.date_experience span {
+    display: block;
 }
 
 /* Texte descriptif */
@@ -298,7 +331,7 @@ html,body{
     /* !!! Recommandations !!! */
 
 /* Paramètre titre */
-.title_recommandation {
+.titre_recommandation {
     display: flex;
     margin: 0;
     margin-bottom: 10px;
@@ -306,13 +339,13 @@ html,body{
     padding: 0;
 }
 
-.title_recommandation h2 {
+.titre_recommandation h2 {
     font-size: 28px;
     margin: 0;
     padding: 0;
 }
 
-.title_recommandation i {
+.titre_recommandation i {
     font-size: 38px;
     color: #A8765B;
     margin-right: 40px;
@@ -327,12 +360,16 @@ html,body{
 .detail_reco {
     width: 25%;
     margin-right: 115px;
-    
     margin-top: 0;
 }
 
 .detail_reco span {
     display: block;
+}
+
+.poste_reco {
+    font-style: italic;
+    margin-bottom: 15px;
 }
 
 .recommandation {
@@ -344,7 +381,10 @@ html,body{
 .detail_reco a {
     color: #A8765B;
     font-size: 25px;
+}
 
+.detail_reco a:hover{
+    color: rgb(209, 157, 129);
 }
 
 .voir_reco {
@@ -356,11 +396,11 @@ Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 1024
 
 @media screen and (max-width: 1024px)
 {
-    body {
+    html,body{
         font-size: 14px;
     }
 
-    .section_1_et_2 {
+    .section_gauche_droite {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -369,12 +409,12 @@ Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 1024
 
     /* Section gauche */
     
-    .left_section {
+    .section_gauche {
         width: auto;
         margin: 0;
     }
 
-    .left_section:nth-child(1) {
+    .section_gauche:nth-child(1) {
         order: 1;
     }
 
@@ -395,38 +435,37 @@ Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 1024
     }
 
     .logo_loisirs {
-        margin-top: 10px;
-        margin-bottom: 10px;
+        margin-top: 20px;
+        margin-bottom: 40px;
     }
     
 
     /* Section droite */
 
-    .right_section {
+    .section_droite {
         width: auto;
         margin: 0;
         padding: 10px;
-        
     }
 
 /* FORMATION */
-    .title_formation {
+    .titre_formation {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    .title_formation h2 {
+    .titre_formation h2 {
         font-size: 23px;
     }
 
-    .title_formation i {
+    .titre_formation i {
         margin-right: auto;
         margin-left: auto;
         margin-bottom: 8px;
     }
 
-    .block_formation1 {
+    .block_formation_openclassrooms {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -440,7 +479,7 @@ Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 1024
         text-align: center;
     }
 
-    .block_formation2 {
+    .block_formation_ppa {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -471,26 +510,30 @@ Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 1024
         height: 100%;
     }
 
+    .description_formation ul{
+        list-style-type: none;
+        padding: 0;
+    }
 /* EXPERIENCE */    
 
-    .title_experience {
+    .titre_experience {
         display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
     }
 
-    .title_experience h2 {
+    .titre_experience h2 {
         font-size: 23px;
     }
 
-    .title_experience i {
+    .titre_experience i {
         margin-right: auto;
         margin-left: auto;
         margin-bottom: 8px;
     }
 
-    .block_experience1 {
+    .block_experience_alphavisa {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -500,7 +543,7 @@ Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 1024
         width: 100%;
     }
 
-    .block_experience2 {
+    .block_experience_amex {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -525,23 +568,27 @@ Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 1024
         text-align: center;
     }
 
+    .description_experience ul{
+        list-style-type: none;
+        padding: 0;
+    }
 
    
 /* RECO */
 
-    .title_recommandation {
+    .titre_recommandation {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    .title_recommandation i {
+    .titre_recommandation i {
         margin-right: auto;
         margin-left: auto;
         margin-bottom: 8px;
     }
 
-    .title_recommandation h2 {
+    .titre_recommandation h2 {
         font-size: 23px;
     }
 

@@ -1,255 +1,377 @@
 <!DOCTYPE html>
 <html lang="fr">
+<!--Lien icônes-->
+<script src="https://kit.fontawesome.com/655edc4fae.js" crossorigin="anonymous"></script>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Formation, expérience professionelle... en bref, le CV en ligne de Margaux Souvairan">
+
+    <!--Lien interne-->
     <link rel="stylesheet" href="./style.css">
+
+    <!--Liens externe-->
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/655edc4fae.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" type="image/ico" href="./image/favicon.ico"/>
+
     <title>CV - Margaux Souvairan</title>
-    <meta name="description" content="Formation, expérience professionelle... en bref, le CV en ligne de Margaux Souvairan">
+    
 </head>
 
 <body>
 
-    <div class="section_1_et_2">
+    <div class="section_gauche_droite">
 
-    <!-- COLONNE GAUCHE -->
-    <aside class="left_section">
-        <div class="photo">
-            <img src="./image/profil.jpg" alt="photo margaux Souvairan">
-        </div>
-        <div class="contact">
-            <h2>
-            Contact
-            </h2>
-        </div>
-        <div class="detail_contact">
-            <ul>
-                <li>
-                    <span>Adresse</span>
-                    Montpellier, 34070 
-                </li> <br>
-                <li>
-                    <span>Téléphone</span>
-                    06 00 00 00 00 
-                </li> <br>
-                <li>
-                    <span>Email</span> 
-                    margauxsouvairan@gmail.com
-                </li> <br>
-                <li>
-                    <span>Site web</span> 
-                    <a href="https://github.com/margauxsvrn">
-                        <i class="fab fa-github">
-                        </i>
-                    </a> <br>
+        <!-- COLONNE GAUCHE -->
+        <aside class="section_gauche">
+            <div class="photo">
+                <img src="./image/profil.jpg" alt="photo margaux Souvairan">
+            </div>
+            <div class="contact">
+                <h2>
+                Contact
+                </h2>
+            </div>
+            <div class="detail_contact">
+                <ul>
+                    <li>
+                        <span>Adresse</span>
+                        Montpellier, 34070 
+                    </li> 
+                    
+                    <li>
+                        <span>Téléphone</span>
+                        <a class="tel" href="tel:0600000000">06 00 00 00 00</a> 
+                    </li>
+
+                    <li>
+                        <span>Email</span> 
+                        <a class="email" href="mailto:margauxsouvairan@gmail.com">margauxsouvairan@gmail.com</a>
+                    </li> 
+
+                    <li>
+                        <span>Site web</span> 
+                        <a class="logo_git" href="https://github.com/margauxsvrn">
+                            <i class="fab fa-github">
+                            </i>
+                        </a> 
+                    </li>
                 
+                </ul>
+            </div>
 
-                </li>
+            <div class="a_propos">
+                <h2>
+                    À propos de moi
+                </h2>
+            </div>
+            <div class="paragraphe_a-propos">
+                <p>
+                    <span>
+                        Après plusieurs années d'expériences dans le domaine commercial, j'ai décidé de me reconvertir dans le développement web.
+                    </span> 
+                    Grâce à une courte formation ( trois semaines à The Hacking Project ) et aux nombreux tuto disponible sur le web, j'ai put découvrir les languages :
+                        <span>
+                            { HTML - CSS - PHP - Mysql - RUBY } ,
+                        </span>
+                    et prendre gôut à l'univers du code.
+                </p>
+            </div>
+
+            <div class="loisirs">
+                <h2>
+                    Loisirs
+                </h2>
+            </div>
+            <div class="logo_loisirs">
+                <div>
+                    <a href="https://www.youtube.com/watch?v=tFIfA-kzCAQ" target="blank">
+                        <i class="fas fa-wind"></i>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.youtube.com/watch?v=H-79zFoaOKo" target="blank">
+                        <i class="far fa-compass fa-spin"></i>
+                    </a>
+                </div>
+                <div class="logo_soleil">
+                    <i class="fas fa-sun"></i>
+                </div>
+            </div>
+
+        </aside>
+
+        <!-- COLONNE DROITE -->
+        <section class="section_droite">
             
-            </ul>
-        </div>
+            <div class="titre">
+                <h2>
+                    <span class="nom">
+                    Margaux
+                    </span> 
+                    Souvairan
+                </h2>
+                <h3 class="nom_profession">
+                    <span class="underline_dev">
+                    Dévelo</span>ppeuse web freelance
+                </h3>
+            </div>
 
-        <div class="a_propos">
-            <h2>
-                À propos de moi
-            </h2>
-        </div>
-        <div class="block_propos">
-            <p>
-               <span>Après plusieurs années d'expériences dans le domaine commercial, j'ai décidé de me reconvertir dans le développement web.</span> 
-               <span>Grâce à une courte formation</span> - <em>3 semaines à The Hacking Project</em> - et aux nombreux tuto disponible sur le web, j'ai put découvrir les languages :
-                <span>{ HTML - CSS - PHP - Mysql - RUBY } ,</span>
-                et prendre gôut à l'univers du code.
-            </p>
-        </div>
-
-        <div class="loisirs">
-            <h2>
-                Loisirs
-            </h2>
-        </div>
-        <div class="logo_loisirs">
-            <div><a href="https://www.youtube.com/watch?v=tFIfA-kzCAQ"><i class="fas fa-wind"></i></a></div>
-            <div><a href="https://www.youtube.com/watch?v=H-79zFoaOKo"><i class="far fa-compass fa-spin"></i></a></div>
-            <div class="test"><i class="fas fa-sun"></i></div>
-        </div>
-
-    </aside>
-
-    <!-- COLONNE DROITE -->
-    <section class="right_section">
-        
-        <div class="title">
-            <h2>
-                <span class="name">
-                Margaux
-                </span> 
-                Souvairan
-            </h2>
-            <h3 class="sous_titre">
-                <span class="underline_dev">
-                Dévelo</span>ppeuse web freelance
-            </h3>
-        </div>
-
-        
-
-            <div class="title_formation"> 
+            <div class="titre_formation"> 
                 <i class="fas fa-graduation-cap"></i>
                 <h2>
                     FORMATION
                 </h2> 
             </div>
 
-            <hr class="ligne">
+                <hr class="ligne"/>
 
-        <div class="block_formation1"> 
-            <div class="dot">
-                <i class="far fa-dot-circle"></i>
+            <div class="block_formation_openclassrooms"> 
+                <div class="dot">
+                    <i class="far fa-dot-circle"></i>
+                </div>
+                <div class="date_formation">
+                    Mai 2020 - Novembre 2020
+                </div>
+                <div class="description_formation">
+                    <h2>
+                        OPENCLASSROOMS
+                    </h2>
+                    <p class="description">
+                        <h2 class="sous_titre">
+                            Développeur Web
+                        </h2> 
+                        <ul>
+                            <li>
+                                Découper, assembler et intégrer tous les éléments d’une maquette graphique en HTML5 et CSS ;
+                            </li> 
+                        
+                            <li>
+                                Ajouter du contenu audio et vidéo en HTML5 ;
+                            </li> 
+
+                            <li>
+                                Animer les pages web avec CSS3 ;
+                            </li>
+
+                            <li>    
+                                Appliquer les standards du web et les normes en vigueur ; 
+                            </li>
+
+                            <li>
+                                Construire un site web fluide s’adaptant à tout type d’écran (web, smartphone et tablette) ; 
+                            </li>
+
+                            <li>
+                                Améliorer le référencement naturel en utilisant les balises selon leur sémantique ;
+                            </li>
+                            
+                            <li>
+                                Faire réagir la page web en fonction des actions de l’utilisateur en JavaScript ; 
+                            </li>
+
+                            <li>
+                                Se connecter à un service web pour exploiter des données tierces (API) ;
+                            </li> 
+
+                            <li>
+                                Gérer les comptes utilisateurs ; 
+                            </li>
+
+                            <li>
+                                Concevoir un site maintenable grâce à la gestion des erreurs et exceptions ; 
+                            </li>
+
+                            <li>
+                                Créer, gérer et afficher le contenu d’une base de données.
+                            </li>
+                        </ul>    
+                    </p>
+                </div>
             </div>
-            <div class="date_formation">
-                Mai 2020 - Novembre 2020
+
+            <div class="block_formation_ppa">
+                <div class="dot2">
+                    <i class="fas fa-circle"></i>
+                </div>
+                <div class="date_formation">
+                    <span>
+                        2014 - 2015
+                    </span> 
+                    Paris
+                </div>
+                <div class="description_formation">
+                    <h2>
+                        PÔLE PARIS ALTERNANCE
+                    </h2>
+                    <p class="description">
+                        <h2 class="sous_titre">
+                            Bachelor Management Commercial
+                        </h2>
+                        <ul>
+                            <li>
+                                Concevoir un plan de développement du marketing opérationnel ;
+                            </li>
+
+                            <li>
+                                Mettre en œuvre le plan d'action commerciale sur une ou plusieurs zones d'affaires internationales ;
+                            </li>
+
+                            <li>
+                                Animer une équipe commerciale à l’internationale ;
+                            </li>
+
+                            <li>
+                                Animer des réseaux internationaux et gérer le développement d’un centre de profit ou centre d’affaires international.
+                            </li>
+                        </ul>
+                    </p>
+                </div>
             </div>
-            <div class="description_formation">
+
+            <div class="titre_experience"> 
+                <i class="fas fa-briefcase"></i>
                 <h2>
-                    OPENCLASSROOMS
-                </h2>
-                <p class="description">
-                    <h2 class="sous_titre2">Développeur Web</h2> 
-                    - découper, assembler et intégrer tous les éléments d’une maquette graphique en HTML5 et CSS ; <br>
-                    - ajouter du contenu audio et vidéo en HTML5 ; <br>
-                    - animer les pages web avec CSS3 ; <br>
-                    - appliquer les standards du web et les normes en vigueur ; <br>
-                    - construire un site web fluide s’adaptant à tout type d’écran (web, smartphone et tablette) ; <br>
-                    - améliorer le référencement naturel en utilisant les balises selon leur sémantique ; <br>
-                    - faire réagir la page web en fonction des actions de l’utilisateur en JavaScript ; <br>
-                    - se connecter à un service web pour exploiter des données tierces (API) ; <br>
-                    - gérer les comptes utilisateurs ; <br>
-                    - concevoir un site maintenable grâce à la gestion des erreurs et exceptions ; <br>
-                    - créer, gérer et afficher le contenu d’une base de données.    
-                </p>
-            </div>
-        </div>
-
-        <div class="block_formation2">
-            <div class="dot2">
-                <i class="fas fa-circle"></i>
-            </div>
-            <div class="date_formation">
-                2014 - 2015 <br>
-                Paris
-            </div>
-            <div class="description_formation">
-                <h2>
-                    PÔLE PARIS ALTERNANCE
-                </h2>
-                <p class="description">
-                    <h2 class="sous_titre2">Bachelor Management Commercial</h2>
-                    - Concevoir un plan de développement du marketing opérationnel ;<br>
-                    - Mettre en œuvre le plan d'action commerciale sur une ou plusieurs zones d'affaires internationales ;<br>
-                    - Animer une équipe commerciale à l’internationale ;<br>
-                    - Animer des réseaux internationaux et gérer le développement d’un centre de profit ou centre d’affaires international.
-                </p>
+                    EXPÉRIENCES PROFESSIONELLES
+                </h2> 
             </div>
 
-        </div>
-
-
-        
-
-        <div class="title_experience"> 
-            <i class="fas fa-briefcase"></i>
-            <h2>
-                EXPÉRIENCES PROFESSIONELLES
-            </h2> 
-        </div>
-
-        <hr class="ligne">
-            
-        <div class="block_experience1">
-            <div class="dot">
-                <i class="far fa-dot-circle"></i>
-            </div>
-            <div class="date_experience">
-                Septembre 2018 - Juin 2019 <br>
-                Montpellier
-            </div>
-            <div class="description_experience">
-                <h2>
-                    ALPHA VISA CONGRÈS
-                </h2>
-                <p class="description">
-                    <h2 class="sous_titre2">Chargée de projet événementiel</h2>
-                    Chargée de projet au sein d'une entreprise spécialisé dans l'organisation de congrès scientifiques. <br>
-                    - Mise en place de projet ; <br>
-                    - Gestion des fournisseurs (traiteur, hôtel, excursion...) ; <br>
-                    - Rendez-vous clientèle ; <br>
-                    - Coordination avec le responsable informatique et PAO ; <br>
-                    - Gestion des participants, invités et exposants (suivi des inscriptions, suivi budgétaire, missions administratives, gestion et suivi des réservations hôtelières, relecture et traduction) ; <br>
-                    - Gestion d'expositions ; <br>
-                    - Gestion des bases de données ; <br>
-                    - Déplacements nationaux pour les présences durant les congrès.
-                    
-
-
-                </p>
-            </div>
-        </div>
-
-        <div class="block_experience2">
-            <div class="dot2">
-                <i class="fas fa-circle"></i>
-            </div>
-            <div class="date_experience">
-                Octobre 2015 - Juin 2018 <br>
-                Brighton (UK)
-            </div>
-            <div class="description_experience">
-                <h2>
-                    AMERICAN EXPRESS
-                </h2>
-                <p>
-                   <h2 class="sous_titre2">Chargée de relation client - Customer Care Professional</h2>
-                   - Relation BtoC : Réponse aux demandes diverse des porteurs de carte (paiements, contestation, offre commerciale, tarif, fraude, assurance...) <br>
-                   - Adaptation aux différents profils (carte premium, entreprise, personnelle...) <br>
-                   - Identification des besoins et proposition de solutions adaptées <br>
-                   - Délivrer un service d'excellence (statistiques, objectifs) <br>
-                   - Relation BtoB (négociation des frais/commission...)
-                </p>
-            </div>
-        </div>
-
-        <div class="title_recommandation"> 
-            <i class="fas fa-pen-fancy"></i>
-            <h2>
-                RECOMMANDATION
-            </h2> 
-        </div>
-
-        <hr class="ligne">
-
-        <div class="block_recommandation">
-            <div class="detail_reco">
-             <span>MORGANE BARTHONNY</span>
-                <span><em>Team Leader at American Express</em></span> 
-                <br>
-                <span class="voir_reco">Voir la recommandation :</span>
-                <a href="https://www.linkedin.com/in/souvairan-margaux-6808a495"><i class="fab fa-linkedin"></i></a>
+            <hr class="ligne"/>
                 
+            <div class="block_experience_alphavisa">
+                <div class="dot">
+                    <i class="far fa-dot-circle"></i>
+                </div>
+                <div class="date_experience">
+                    <span>
+                        Septembre 2018 - Juin 2019
+                    </span>
+                    Montpellier
+                </div>
+                <div class="description_experience">
+                    <h2>
+                        ALPHA VISA CONGRÈS
+                    </h2>
+                    <p class="description">
+                        <h2 class="sous_titre">
+                            Chargée de projet événementiel
+                        </h2>
+                        
+                        <ul>
+                            <li>
+                                Organisation de congrès scientifiques ;
+                            </li>
+
+                            <li>
+                                Gestion des fournisseurs (traiteur, hôtel, excursion...) ;
+                            </li>
+
+                            <li>
+                                Rendez-vous clientèle ;
+                            </li>
+
+                            <li>
+                                Coordination avec le responsable informatique et PAO ;
+                            </li>
+
+                            <li>
+                                Gestion des participants, invités et exposants (suivi des inscriptions, suivi budgétaire, missions administratives, gestion et suivi des réservations hôtelières, relecture et traduction) ;
+                            </li>
+
+                            <li>
+                                Gestion d'expositions ;
+                            </li>
+
+                            <li>
+                                Gestion des bases de données ;
+                            </li>
+
+                            <li>
+                                Déplacements nationaux pour les présences durant les congrès.
+                            </li>
+                        </ul>
+                    </p>
+                </div>
             </div>
-        <div class="recommandation">
-            "I had the pleasure of being Margaux's leader for over a year in American Express. Helping the people around her by sharing her knowledge and expertise came naturally to her and I was always impressed by her enthusiasm and the energy she put in everything she does. I'm happy I got the chance to work with her, she would be an asset to any team."
-        </div>
 
-        </div>
-        
+            <div class="block_experience_amex">
+                <div class="dot2">
+                    <i class="fas fa-circle"></i>
+                </div>
+                <div class="date_experience">
+                    <span>
+                        Octobre 2015 - Juin 2018
+                    </span>
+                    Brighton (UK)
+                </div>
+                <div class="description_experience">
+                    <h2>
+                        AMERICAN EXPRESS
+                    </h2>
+                    <p>
+                        <h2 class="sous_titre">
+                            Chargée de relation client - Customer Care Professional
+                        </h2>
+                        <ul>
+                            <li>
+                                Relation BtoC : Réponse aux demandes diverse des porteurs de carte (paiements, contestation, offre commerciale, tarif, fraude, assurance...)
+                            </li>
 
-    </section>
+                            <li>
+                                Adaptation aux différents profils (carte premium, entreprise, personnelle...)
+                            </li>
 
+                            <li>
+                                Identification des besoins et proposition de solutions adaptées
+                            </li>
+
+                            <li>
+                                Délivrer un service d'excellence (statistiques, objectifs)
+                            </li>
+
+                            <li>
+                                Relation BtoB (négociation des frais/commission...)
+                            </li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+
+            <div class="titre_recommandation"> 
+                <i class="fas fa-pen-fancy"></i>
+                <h2>
+                    RECOMMANDATION
+                </h2> 
+            </div>
+
+            <hr class="ligne"/>
+
+            <div class="block_recommandation">
+                <div class="detail_reco">
+                    <span>
+                        MORGANE BARTHONNY
+                    </span>
+                    <span class="poste_reco">
+                        Team Leader at American Express
+                    </span> 
+                    <span class="voir_reco">
+                        Voir la recommandation :
+                    </span>
+                    <a href="https://www.linkedin.com/in/souvairan-margaux-6808a495">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    
+                </div>
+                <div class="recommandation">
+                    "I had the pleasure of being Margaux's leader for over a year in American Express. Helping the people around her by sharing her knowledge and expertise came naturally to her and I was always impressed by her enthusiasm and the energy she put in everything she does. I'm happy I got the chance to work with her, she would be an asset to any team."
+                </div>
+
+            </div>
+            
+        </section>
     </div>  
+
 </body>
+
 </html>
