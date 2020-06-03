@@ -93,7 +93,7 @@ color: rgb(241, 235, 231);
 }
 
 .logo_git :hover {
-color: white;
+    color: white;
 }
 
     /* A propos */
@@ -182,7 +182,7 @@ color: white;
 }
 
 .underline_dev {
-    border-bottom:2px solid #A8765B;
+    border-bottom: 2px solid #A8765B;
 }
 
     /* !!! Formation !!! */
