@@ -140,11 +140,22 @@ color: rgb(241, 235, 231);
     
 }
 
+.logo_vent i {
+    font-size: 35px;
+}
+
 .logo_loisirs i {
     color: rgb(241, 235, 231);
     margin-right: 20px;
     margin-left: 20px;
-    font-size: 55px;
+    font-size: 50px;
+    border: 1px solid rgb(241, 235, 231);
+    border-radius: 50%;
+    padding: 4px;
+}
+
+.logo_soleil i {
+    padding: 1px;
 }
 
 .logo_soleil :hover {
@@ -401,7 +412,7 @@ Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 1024
     }
 
     .section_gauche_droite {
-        display: flex;
+        
         flex-direction: column;
         justify-content: center;
         margin: 0;
