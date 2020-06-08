@@ -517,7 +517,6 @@ Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 1024
 
     .description_formation h2 {
         font-size: 20px;
-        max-width: auto;
         height: 100%;
     }
 
@@ -571,7 +570,6 @@ Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 1024
 
     .description_experience h2 {
         font-size: 20px;
-        max-width: auto;
         height: 100%;
     }
 
